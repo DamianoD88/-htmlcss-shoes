@@ -9,35 +9,38 @@
     margin: 0 auto;
 }
 
-/* header {
-    position: relative;
+nav {
+    position: fixed;
+    width: 25%;
+    height: 120px;
+    top: 100px;
+    right: 0;
+    z-index: 1;
 }
 
-#sezione {
-    width: 400px;
-    height: 70px;
-    border: 1px solid black;
-    position: absolute;
-    z-index: 1;
-    right: 0;
-    top: 100px;
+li {
+    float: left;
 }
+
+a {
+    text-decoration: none;
+}
+
+
 
 
 .bottoni {
-    position: fixed;
     display: inline-block;
     width: 50px;
     height: 50px;
     margin: 40px 20px;
     border-radius: 50%;
     background-color: white;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
-    line-height: 50px;
-    right: 0;
-    z-index: 1;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 1.5);
+    text-align: center;
+    font-size: 32px;
 
-}
+} 
 
 
 #viewport1, #viewport2 {
@@ -45,7 +48,7 @@
     height: 100vh;
     background-color: #ff0000;
     position: relative;
-} */
+} 
 
 .scarpe {
     position: absolute;
@@ -61,7 +64,7 @@
     transform: translate(-50%, -50%);
     font-size: 72px;
     text-align: center;
-    
+
 }
 
 .color1 {
